@@ -1,5 +1,28 @@
 # jooq-generate
-使用方法：
+对DAO进行扩展
+
+### 使用方法：
+
+#### 仓库 
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+#### 依赖
+```
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.18</version>
+</dependency>
+```
+
+#### 插件
 ```
 <plugin>
     <groupId>org.jooq</groupId>
